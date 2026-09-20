@@ -1,8 +1,12 @@
+/* act 1 */
 *{
-    background-color: #450910;
-    color:#fff5e7;
     font-family: bitter;
     margin: 0;
+}
+
+#home, #intro{
+    color:#fff5e7;
+    background-color: #450910;
 }
 
 #home{
@@ -11,14 +15,13 @@
     gap: 80px;
     flex-wrap: wrap;
     align-items: center;
-    padding: 50px 0;
-    margin: 0 15px;
+    padding: 80px 15px;
 }
 
 #home h1{
-    font-size: 5.5vw; /* 1vw = 1% */
+    font-size: 6vw; /* 1vw = 1% */
     font-weight: 900;
-    padding: 1px 0;
+    padding: 1px;
 }
 
 #home img{
@@ -27,8 +30,7 @@
 }
 
 #intro{
-    margin: 0 15px;
-    padding: 30px;
+    padding: 30px 15px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -39,18 +41,157 @@
 }
 
 .intros h3{
+    font-family: playfair display;
+    font-weight: 600;
     font-style: italic;
+    border: 2px solid #fff5e7;
+    border-radius: 25px;
+    padding: 10px 30px;
 }
 
-#intro button{
-    border-radius: 5px;
+.intros button{
+    border-radius: 20px;
     border: 2px solid #fff5e7;
     font-size: 16px;
     font-weight: 600;
     padding: 5px 20px;
+    margin: 30px;
 }
 
 button a{
     text-decoration: none;
+    color: #450910;
+}
+
+
+
+/* act 2 */
+#aboutme{
+    background-color: #fff5e7;
+    padding: 50px;
+    color: #450910;
+    flex-wrap: wrap;
+}
+
+#aboutme h1{
+    font-family: playfair display;
+    font-size: 3.5vw;
+    font-weight: 1000;
+    display: flex;
+    padding: 25px 80px;
+}
+
+.bio{
+    display: flex;
+    padding: 30px 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.one{
+    background-color: #ffffff;
+    border: 4px dashed #450910;
+    border-radius: 20px;
+    padding: 30px;
+    flex: 0 1 50%;
+    box-sizing: border-box;
+}
+
+.two{
+    box-sizing: border-box;
+    background-color: #450910;
+    color: #fff5e7;
+    border: 4px dashed #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.two h2{
+    padding-bottom: 5px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.two strong{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* Hobbies & Interests */
+.hi{
+    flex-wrap: wrap; 
+    padding: 50px 0;
+}
+
+.hi h3{
+    font-family: playfair display;
+    font-size: 40px;
+    font-weight: 800;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.yea{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+    flex-wrap: wrap;
+}
+
+.basta {
+    background-color: #450910;
+    color: #fff5e7;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 25px;
+}
+
+
+/* My Goals */
+#goal {
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#goal h3{
+    font-family: playfair display;
+    font-size: 40px;
+    font-weight: 800;
+    flex-direction: column;
+    align-self: center;
+    padding: 0 5px;
+    text-align: center;
+}
+
+
+#goal ul{
+    padding: 0;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#goal li{
+    line-height: 35px;
+    margin: 5px;
+    background-color: #ffffff;
+    border: 3px solid #450910;
+    border-radius: 30px;
+    padding: 0 30px;
+    list-style-type: none;
+    justify-content: space-evenly;
 }
 
