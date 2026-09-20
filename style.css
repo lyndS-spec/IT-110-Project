@@ -75,7 +75,7 @@ button a{
 
 #aboutme h1{
     font-family: playfair display;
-    font-size: 3.5vw;
+    font-size: 4vw;
     font-weight: 1000;
     display: flex;
     padding: 25px 80px;
@@ -125,7 +125,7 @@ button a{
 
 .hi h3{
     font-family: playfair display;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 800;
     font-style: italic;
     display: flex;
@@ -163,13 +163,13 @@ button a{
 #goal {
     display: flex;
     padding: 50px 0;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 #goal h3{
     font-family: playfair display;
-    font-size: 40px;
+    font-size: 55px;
     font-weight: 800;
     flex-direction: column;
     align-self: center;
@@ -195,3 +195,64 @@ button a{
     justify-content: space-evenly;
 }
 
+
+/* act 3 */
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 50px;
+    color: #450910;
+    flex-wrap: wrap;
+}
+
+.card h2{
+    font-family: playfair display;
+    font-size: 50px;
+    font-weight: 800;
+    font-style: italic;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.card-cont{
+    display: flex;
+    margin: 30px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.cards h3{
+    font-family: playfair display;
+    font-size: 25px;
+    font-weight: 800;
+    margin: 10px 5px;
+    color: #ff9500;
+}
+
+.cards{
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    background-color: #450910;
+    border: 7px solid #ab3946;
+    color: #fff5e7;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 20px 20px 40px 20px;
+    font-size: 15px;
+    border-radius: 30px;
+}
+
+.cards img{
+    width: 250px;
+    border-radius: 20px;
+    border: 3px solid #fff5e7;
+}
+
+.cards p{
+    width: 220px;
+    justify-self: center;
+}
