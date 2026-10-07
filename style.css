@@ -197,11 +197,14 @@ button a{
 
 
 /* act 3 */
+#card-cont{
+    background-color: #fff5e7;
+}
+
 .card{
     display: flex;
     flex-direction: column;
-    margin: 10px;
-    padding: 50px;
+    padding: 60px;
     color: #450910;
     flex-wrap: wrap;
 }
