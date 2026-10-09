@@ -4,6 +4,35 @@
     margin: 0;
 }
 
+/* Navbar */
+nav{
+    background-color: #ff9500;
+}
+
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+    padding: 12px;
+}
+
+nav li{
+    font-family: playfair display;
+    font-size: 17px;
+    font-weight: 900;
+    color: #450910;
+}
+
+nav li:hover{
+    color: #fff5e7;
+}
+
+#navbar a{
+    text-decoration: none;
+}
+
+/* Home */
 #home, #intro{
     color:#fff5e7;
     background-color: #450910;
@@ -30,7 +59,7 @@
 }
 
 #intro{
-    padding: 30px 15px;
+    padding: 0px 15px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
