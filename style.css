@@ -6,6 +6,8 @@
 
 /* Navbar */
 nav{
+    position: sticky;
+    top: 0;
     background-color: #ff9500;
 }
 
@@ -17,20 +19,18 @@ nav{
     padding: 12px;
 }
 
-nav li{
+#navbar a{
+    text-decoration: none;
     font-family: playfair display;
     font-size: 17px;
     font-weight: 900;
     color: #450910;
 }
 
-nav li:hover{
+#navbar a:hover{
     color: #fff5e7;
 }
 
-#navbar a{
-    text-decoration: none;
-}
 
 /* Home */
 #home, #intro{
