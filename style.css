@@ -259,3 +259,113 @@ button a{
     width: 220px;
     justify-self: center;
 }
+
+
+/* act4 project cards */
+#project-sec{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 40px 100px;
+    background-color: #450910;
+}
+
+#project-sec h1{
+    font-family: playfair display;
+    color: #fff5e7;
+    font-size: 4vw;
+    font-weight: 1000;
+    display: flex;
+    padding: 25px 80px 50px;
+}
+
+.project-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #ab3946;
+    border-radius: 10px;
+    background-color: #fff5e7;
+    flex-wrap: wrap;
+}
+
+.project h4{
+    background-color: #450910;
+    color: #fff5e7;
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+.tcw h4{
+    background-color: #450910;
+    color: #fff5e7;
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+.project img{
+    display: flex;
+    max-width: 280px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.brochures{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.content{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    color: #450910;
+}
+
+.tcw{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content button{
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #ff9500;
+    padding: 10px 20px;
+    font-family: bitter;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.content a{
+    color: #fff5e7;
+}
+
+
+
