@@ -465,3 +465,109 @@ tr, td{
     max-width: 90px;
 }
 
+
+
+/* act 7: Contact */
+#contact{
+    display: flex;
+    background-color: #450910;
+    padding: 30px 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#contact h1{
+    font-family: playfair display;
+    font-size: 4vw;
+    font-weight: 1000;
+    color: #fff5e7;
+}
+
+.form{
+    background-color: #fff5e7;
+    color: #450910;
+    flex-wrap: wrap;
+    width: 20%;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+    box-sizing: border-box;
+}
+
+label{
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+input{
+    width: 98%;
+    height: 25px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #ffdcaa;
+    margin: 2px 0;
+    flex-wrap: wrap;
+}
+
+input:hover, textarea:hover{
+    background-color: #ffffff;
+}
+
+.mess{
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    border-radius: 5px;
+    background-color: #ffdcaa;
+    border: 0;
+    height: 50px;
+}
+
+.send{
+    font-weight: 600;
+    width: 33%;
+    align-self: center;
+    margin: 5px;  
+}
+
+.send button{
+    background-color: #ff9500;
+    color: #fff5e7;
+    border: 0;
+    border-radius: 10px;
+    padding: 3px 10px;
+    font-family: playfair display;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.send button:hover{
+    background-color: #f18e03;
+    transform: translateY(3px);
+}
+
+.send button:focus {
+    outline: 2px solid #f18e03;
+    outline-offset: 2px;
+}
+
+input:focus, textarea:focus {
+    outline: 2px solid;
+    outline-color: #ab3946;
+}
