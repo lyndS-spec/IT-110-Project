@@ -17,6 +17,7 @@ nav{
     gap: 50px;
     list-style: none;
     padding: 12px;
+    flex-wrap: wrap;
 }
 
 #navbar a{
