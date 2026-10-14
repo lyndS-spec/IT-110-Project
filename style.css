@@ -14,7 +14,7 @@ nav{
 #navbar ul{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 80px;
     list-style: none;
     padding: 12px;
     flex-wrap: wrap;
@@ -52,11 +52,12 @@ nav{
     font-size: 6vw; /* 1vw = 1% */
     font-weight: 900;
     padding: 1px;
+    color: #ffdcaa;
 }
 
 #home img{
     border-radius: 50%;
-    border: 5px solid #fff5e7 ;
+    border: 5px solid #ff9500 ;
 }
 
 #intro{
@@ -74,7 +75,7 @@ nav{
     font-family: playfair display;
     font-weight: 600;
     font-style: italic;
-    border: 2px solid #fff5e7;
+    border: 2px solid #ff9500;
     border-radius: 25px;
     padding: 10px 30px;
 }
@@ -112,10 +113,12 @@ button a{
 }
 
 .bio{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
     padding: 30px 10px;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    gap: 50px;
 }
 
 .one{
@@ -146,6 +149,7 @@ button a{
     font-size: 20px;
     font-weight: 800;
 }
+
 
 /* Hobbies & Interests */
 .hi{
@@ -191,9 +195,9 @@ button a{
 
 /* My Goals */
 #goal {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
     padding: 50px 0;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -201,7 +205,6 @@ button a{
     font-family: playfair display;
     font-size: 55px;
     font-weight: 800;
-    flex-direction: column;
     align-self: center;
     padding: 0 5px;
     text-align: center;
@@ -228,67 +231,56 @@ button a{
 
 /* act 3 */
 #card-cont{
-    background-color: #fff5e7;
+    background-color: #450910;
+    padding: 50px;
 }
 
 .card{
     display: flex;
     flex-direction: column;
-    padding: 60px;
-    color: #450910;
-    flex-wrap: wrap;
-}
-
-.card h2{
-    font-family: playfair display;
-    font-size: 50px;
-    font-weight: 800;
-    font-style: italic;
-    margin: 10px 0;
-    text-align: center;
 }
 
 .card-cont{
     display: flex;
-    margin: 30px;
-    flex-direction: row;
-    justify-content: center;
-    gap: 80px;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cards{
+    padding: 25px;
+    flex-wrap: wrap;
+    max-width: 150px;
+    border: 5px solid #ab3946;
+    border-radius: 20px;
+}
+
+.card h1{
+    font-family: playfair display;
+    font-weight: 1000;
+    font-size: 4vw;
+    padding: 25px 80px 50px;
+    color: #fff5e7;
 }
 
 .cards h3{
     font-family: playfair display;
-    font-size: 25px;
-    font-weight: 800;
-    margin: 10px 5px;
     color: #ff9500;
-}
-
-.cards{
-    box-sizing: border-box;
-    flex-wrap: wrap;
-    background-color: #450910;
-    border: 7px solid #ab3946;
-    color: #fff5e7;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    padding: 20px 20px 40px 20px;
-    font-size: 15px;
-    border-radius: 30px;
-}
-
-.cards img{
-    width: 250px;
-    border-radius: 20px;
-    border: 3px solid #fff5e7;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px 0;
 }
 
 .cards p{
-    width: 220px;
-    justify-self: center;
+    color: #fff5e7;
 }
+
+.cards img{
+    border: 3px solid #ffdcaa;
+    border-radius: 10px;
+    max-width: 150px;
+}
+
 
 
 /* act4 project cards */
@@ -316,6 +308,7 @@ button a{
     flex-wrap: wrap;
     gap: 40px;
 }
+
 .project{
     display: flex;
     flex-direction: column;
@@ -359,7 +352,7 @@ button a{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 5 0px;
 }
 
 .content{
@@ -421,7 +414,6 @@ button a{
 #educ, #exper{
     display: flex;
     justify-content: center;
-    overflow: auto;
     width: 100%;
 }
 
@@ -446,7 +438,6 @@ th{
     color: #fff5e7;
     text-align: left;
 }
-
 
 tr, td{
     border: 3px solid #ab3946;
