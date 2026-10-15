@@ -89,6 +89,11 @@ nav{
     margin: 30px;
 }
 
+.intros button:hover{
+    background-color: #ffdcaa;
+    border-color: #ffdcaa;
+}
+
 button a{
     text-decoration: none;
     color: #450910;
@@ -385,6 +390,10 @@ button a{
     font-family: bitter;
     font-size: 15px;
     font-weight: 600;
+}
+
+.content button:hover{
+    background-color: #f18e03;
 }
 
 .content a{
