@@ -344,7 +344,7 @@ button a{
 
 .project img{
     display: flex;
-    max-width: 220px;
+    max-width: 250px;
 }
 
 .images{
@@ -619,6 +619,7 @@ input:focus, textarea:focus {
 
 }
 
+
 @media screen and (min-width: 481px) and (max-width: 768px) {
     #navbar ul{
         gap: 20px;
@@ -750,7 +751,7 @@ input:focus, textarea:focus {
         gap: 15px;
     }
 
-     #aboutme h1, .card h1, #project-sec h1, #ee-sect h1, #contact h1{
+    #aboutme h1, .card h1, #project-sec h1, #ee-sect h1, #contact h1{
         padding: 10px;
         font-size: 30px;
     }
@@ -758,18 +759,24 @@ input:focus, textarea:focus {
     .one{
         grid-area: 1 / span 3;
         padding: 20px;
+        font-size: 14px;
     }
 
     .two {
         grid-area: 2 / span 3;
         padding: 20px;
+        font-size: 14px;
+    }
+
+    .two strong, .cards h3 {
+        font-size: 15px;
     }
 
     .hi h3, #goal h3{
         font-size: 25px;
     }
 
-    .basta{
+    .basta, th, label, .content p{
         font-size: 13px;
     }
 
@@ -808,10 +815,10 @@ input:focus, textarea:focus {
 
     .cards{
         padding: 12px;
-        max-width: 40%;
+        max-width: 45%;
     }
 
-    .cards p, .cards h3, td{
+    .cards p, td{
         font-size: 12px;
     }
 
@@ -822,10 +829,6 @@ input:focus, textarea:focus {
     .brochures{
         padding: 0;
         gap: 30px;
-    }
-
-    th, label{
-        font-size: 13px;
     }
 
     th, td, #ee-sect {
@@ -849,7 +852,4 @@ input:focus, textarea:focus {
         padding: 20px;
         width: 60%;
     }
-
 }
-
-
